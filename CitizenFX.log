@@ -74,3 +74,75 @@
 [   2034734] 	[C]: in function 'error'
 [   2034734] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
 [   2034734] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2094734] Error running call reference function for resource spawn: citizen:/scripting/lua/scheduler.lua:351: server.lua:7: attempt to index a nil value (local 'user')
+[   2094734] stack traceback:
+[   2094734] 	server.lua:7: in upvalue 'ref'
+[   2094734] 	citizen:/scripting/lua/scheduler.lua:337: in function <citizen:/scripting/lua/scheduler.lua:336>
+[   2094734] 	[C]: in function 'xpcall'
+[   2094734] 	citizen:/scripting/lua/scheduler.lua:336: in function <citizen:/scripting/lua/scheduler.lua:335>
+[   2094734] stack traceback:
+[   2094734] 	[C]: in function 'error'
+[   2094734] 	citizen:/scripting/lua/scheduler.lua:351: in function <citizen:/scripting/lua/scheduler.lua:322>
+[   2094734] 	[C]: in function 'coroutine.resume'
+[   2094734] 	citizen:/scripting/lua/scheduler.lua:34: in field 'CreateThreadNow'
+[   2094734] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2094750] Error running system event handling function for resource essentialmode: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: citizen:/scripting/lua/MessagePack.lua:830: missing bytes
+[   2094750] stack traceback:
+[   2094750] 	[C]: in function 'error'
+[   2094750] 	citizen:/scripting/lua/MessagePack.lua:830: in method 'underflow'
+[   2094750] 	citizen:/scripting/lua/MessagePack.lua:465: in field 'any'
+[   2094750] 	citizen:/scripting/lua/MessagePack.lua:860: in field 'unpack'
+[   2094750] 	citizen:/scripting/lua/scheduler.lua:563: in local 'cb'
+[   2094750] 	server/player/login.lua:147: in upvalue 'handler'
+[   2094750] 	citizen:/scripting/lua/scheduler.lua:175: in function <citizen:/scripting/lua/scheduler.lua:174>
+[   2094750] stack traceback:
+[   2094750] 	[C]: in function 'error'
+[   2094750] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+[   2094750] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2154750] Error running call reference function for resource spawn: citizen:/scripting/lua/scheduler.lua:351: server.lua:7: attempt to index a nil value (local 'user')
+[   2154750] stack traceback:
+[   2154750] 	server.lua:7: in upvalue 'ref'
+[   2154750] 	citizen:/scripting/lua/scheduler.lua:337: in function <citizen:/scripting/lua/scheduler.lua:336>
+[   2154750] 	[C]: in function 'xpcall'
+[   2154750] 	citizen:/scripting/lua/scheduler.lua:336: in function <citizen:/scripting/lua/scheduler.lua:335>
+[   2154750] stack traceback:
+[   2154750] 	[C]: in function 'error'
+[   2154750] 	citizen:/scripting/lua/scheduler.lua:351: in function <citizen:/scripting/lua/scheduler.lua:322>
+[   2154750] 	[C]: in function 'coroutine.resume'
+[   2154750] 	citizen:/scripting/lua/scheduler.lua:34: in field 'CreateThreadNow'
+[   2154750] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2154765] Error running system event handling function for resource essentialmode: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: citizen:/scripting/lua/MessagePack.lua:830: missing bytes
+[   2154765] stack traceback:
+[   2154765] 	[C]: in function 'error'
+[   2154765] 	citizen:/scripting/lua/MessagePack.lua:830: in method 'underflow'
+[   2154765] 	citizen:/scripting/lua/MessagePack.lua:465: in field 'any'
+[   2154765] 	citizen:/scripting/lua/MessagePack.lua:860: in field 'unpack'
+[   2154765] 	citizen:/scripting/lua/scheduler.lua:563: in local 'cb'
+[   2154765] 	server/player/login.lua:147: in upvalue 'handler'
+[   2154765] 	citizen:/scripting/lua/scheduler.lua:175: in function <citizen:/scripting/lua/scheduler.lua:174>
+[   2154765] stack traceback:
+[   2154765] 	[C]: in function 'error'
+[   2154765] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+[   2154765] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2160984] Sending heartbeat to live-internal.fivem.net:30110
+[   2208140] Sending heartbeat to live-internal.fivem.net:30110
+[   2388171] Sending heartbeat to live-internal.fivem.net:30110
+[   2416750] Updating Weather to SNOWLIGHT for all players.
+[   2568203] Sending heartbeat to live-internal.fivem.net:30110
+[   2748234] Sending heartbeat to live-internal.fivem.net:30110
+[   2928281] Sending heartbeat to live-internal.fivem.net:30110
+[   3018375] Updating Weather to RAIN for all players.
+[   3108296] Sending heartbeat to live-internal.fivem.net:30110
+[   3288343] Sending heartbeat to live-internal.fivem.net:30110
+[   3468390] Sending heartbeat to live-internal.fivem.net:30110
+[   3620187] Updating Weather to OVERCAST for all players.
+[   3648406] Sending heartbeat to live-internal.fivem.net:30110
+[   3828421] Sending heartbeat to live-internal.fivem.net:30110
+[   4008437] Sending heartbeat to live-internal.fivem.net:30110
+[   4188453] Sending heartbeat to live-internal.fivem.net:30110
+[   4221781] Updating Weather to FOGGY for all players.
+[   4368453] Sending heartbeat to live-internal.fivem.net:30110
+[   4548484] Sending heartbeat to live-internal.fivem.net:30110
+[   4728484] Sending heartbeat to live-internal.fivem.net:30110
+[   4823750] Updating Weather to CLOUDS for all players.
+[   4908484] Sending heartbeat to live-internal.fivem.net:30110

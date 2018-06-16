@@ -23,3 +23,54 @@
 [   1914718] 	[C]: in function 'error'
 [   1914718] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
 [   1914718] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   1974703] Error running call reference function for resource spawn: citizen:/scripting/lua/scheduler.lua:351: server.lua:7: attempt to index a nil value (local 'user')
+[   1974703] stack traceback:
+[   1974703] 	server.lua:7: in upvalue 'ref'
+[   1974703] 	citizen:/scripting/lua/scheduler.lua:337: in function <citizen:/scripting/lua/scheduler.lua:336>
+[   1974703] 	[C]: in function 'xpcall'
+[   1974703] 	citizen:/scripting/lua/scheduler.lua:336: in function <citizen:/scripting/lua/scheduler.lua:335>
+[   1974703] stack traceback:
+[   1974703] 	[C]: in function 'error'
+[   1974703] 	citizen:/scripting/lua/scheduler.lua:351: in function <citizen:/scripting/lua/scheduler.lua:322>
+[   1974703] 	[C]: in function 'coroutine.resume'
+[   1974703] 	citizen:/scripting/lua/scheduler.lua:34: in field 'CreateThreadNow'
+[   1974703] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   1974718] Error running system event handling function for resource essentialmode: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: citizen:/scripting/lua/MessagePack.lua:830: missing bytes
+[   1974718] stack traceback:
+[   1974718] 	[C]: in function 'error'
+[   1974718] 	citizen:/scripting/lua/MessagePack.lua:830: in method 'underflow'
+[   1974718] 	citizen:/scripting/lua/MessagePack.lua:465: in field 'any'
+[   1974718] 	citizen:/scripting/lua/MessagePack.lua:860: in field 'unpack'
+[   1974718] 	citizen:/scripting/lua/scheduler.lua:563: in local 'cb'
+[   1974718] 	server/player/login.lua:147: in upvalue 'handler'
+[   1974718] 	citizen:/scripting/lua/scheduler.lua:175: in function <citizen:/scripting/lua/scheduler.lua:174>
+[   1974734] stack traceback:
+[   1974734] 	[C]: in function 'error'
+[   1974734] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+[   1974734] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   1980953] Sending heartbeat to live-internal.fivem.net:30110
+[   2034718] Error running call reference function for resource spawn: citizen:/scripting/lua/scheduler.lua:351: server.lua:7: attempt to index a nil value (local 'user')
+[   2034718] stack traceback:
+[   2034718] 	server.lua:7: in upvalue 'ref'
+[   2034718] 	citizen:/scripting/lua/scheduler.lua:337: in function <citizen:/scripting/lua/scheduler.lua:336>
+[   2034718] 	[C]: in function 'xpcall'
+[   2034718] 	citizen:/scripting/lua/scheduler.lua:336: in function <citizen:/scripting/lua/scheduler.lua:335>
+[   2034718] stack traceback:
+[   2034718] 	[C]: in function 'error'
+[   2034718] 	citizen:/scripting/lua/scheduler.lua:351: in function <citizen:/scripting/lua/scheduler.lua:322>
+[   2034718] 	[C]: in function 'coroutine.resume'
+[   2034718] 	citizen:/scripting/lua/scheduler.lua:34: in field 'CreateThreadNow'
+[   2034718] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
+[   2034734] Error running system event handling function for resource essentialmode: citizen:/scripting/lua/scheduler.lua:41: Failed to execute thread: citizen:/scripting/lua/MessagePack.lua:830: missing bytes
+[   2034734] stack traceback:
+[   2034734] 	[C]: in function 'error'
+[   2034734] 	citizen:/scripting/lua/MessagePack.lua:830: in method 'underflow'
+[   2034734] 	citizen:/scripting/lua/MessagePack.lua:465: in field 'any'
+[   2034734] 	citizen:/scripting/lua/MessagePack.lua:860: in field 'unpack'
+[   2034734] 	citizen:/scripting/lua/scheduler.lua:563: in local 'cb'
+[   2034734] 	server/player/login.lua:147: in upvalue 'handler'
+[   2034734] 	citizen:/scripting/lua/scheduler.lua:175: in function <citizen:/scripting/lua/scheduler.lua:174>
+[   2034734] stack traceback:
+[   2034734] 	[C]: in function 'error'
+[   2034734] 	citizen:/scripting/lua/scheduler.lua:41: in field 'CreateThreadNow'
+[   2034734] 	citizen:/scripting/lua/scheduler.lua:174: in function <citizen:/scripting/lua/scheduler.lua:138>
